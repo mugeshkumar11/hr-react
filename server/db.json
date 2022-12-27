@@ -1,0 +1,223 @@
+{"data":[
+    {
+      "name": "Samsung galaxy z-flip",
+      "image": "https://cdn.zeebiz.com/sites/default/files/2021/08/24/157453-untitled-design-2021-08-24t125845046.jpg",
+      "price": "Rs.90,000",
+      "ratings": "4.8",
+      "category": "phone"
+    },
+    {
+      "name": "Samsung s22 ultra ",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Samsung_Galaxy_S22_Ultra_specs_camera_display_chipset_Note_design_drdNBC.jpg",
+      "price": "Rs.1,00,000",
+      "ratings": "4.9",
+      "category": "phone"
+    },
+    {
+      "name": "Samsung f23 5g ",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/feature/others/in-feature-galaxy-f23-4gb-ram-531497924?$FB_TYPE_A_MO_JPG$",
+      "price": "Rs.18,000",
+      "ratings": "3.7",
+      "category": "phone"
+    },
+    {
+      "name": "redmi note 10pro",
+      "image": "https://fdn.gsmarena.com/imgroot/news/21/05/redmi-note-10-pro-china-ofic/-728x314/gsmarena_000.jpg",
+      "price": "Rs.25,000",
+      "ratings": "4.2",
+      "category": "phone"
+    },
+    {
+      "name": "redmi note 12pro",
+      "image": "https://cdn.ytechb.com/wp-content/uploads/2022/10/Redmi-Note-12-Pro-Wallpapers.webp",
+      "price": "Rs.55,000",
+      "ratings": "3.9",
+      "category": "phone"
+    },
+    {
+      "name": "redmi note 11pro",
+      "image": "https://images.news18.com/ibnlive/uploads/2021/10/redmi-note-11-5g-163549876216x9.jpg",
+      "price": "Rs.24,000",
+      "ratings": "4.7",
+      "category": "phone"
+    },
+    {
+      "name": "apple iphone 7plus",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrFdEqaIH8WuZ3og4gJJhjCmOoGfq3dgEeLQ&usqp=CAU",
+      "price": "Rs.50,000",
+      "ratings": "3.9",
+      "category": "phone"
+    },
+    {
+      "name": "apple iphone 14pro max",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Apple_iPhone_14_Pro_Max_model_purple_price_ASP_drdNBC.jpg",
+      "price": "Rs.1,60,000",
+      "ratings": "4.8",
+      "category": "phone"
+    },
+    {
+      "name": "one-plus-10pro",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrgii8MMqIAyDPTmc7DTxAcumss9NkzM2_Rw&usqp=CAU",
+      "price": "Rs.70,000",
+      "ratings": "4.2",
+      "category": "phone"
+    },
+    {
+      "name": "one-plus-nord",
+      "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/02/OnePlus-Nord-CE-2-rear-panel-scaled.jpg",
+      "price": "Rs.28,000",
+      "ratings": "4.8",
+      "category": "phone"
+    },
+    {
+      "name": "mens casual-red",
+      "image": "https://media.istockphoto.com/id/1276624783/photo/stylish-and-cool-boot.jpg?s=612x612&w=0&k=20&c=8ThAlZhGUSxEAu4XNuFp93dEQiHbolngazxwsr__bMs=",
+      "price": "Rs.600",
+      "ratings": "4.8",
+      "category": "shoes"
+    },
+    {
+      "name": "mens casual-orange",
+      "image": "https://media.istockphoto.com/id/1162158579/photo/top-view-of-casual-orange-suede-trainers-on-grey-wooden-planks.jpg?s=612x612&w=0&k=20&c=BI2GuUYHx5Dv9cPyATSCHMFA9mrGwZRZ4VC6q6xCVjY=",
+      "price": "Rs.400",
+      "ratings": "4.7",
+      "category": "shoes"
+    },
+    {
+      "name": "mens-formal-black",
+      "image": "https://www.pierrecardinindia.com/wp-content/uploads/2020/01/9016-black-lifestyle-web.jpg",
+      "price": "Rs.800",
+      "ratings": "4.9",
+      "category": "shoes"
+    },
+    {
+      "name": "mens casual-red-black",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQar72fQMOe5ukqmeTCvWz4zkE0bglaX2tf4Q&usqp=CAU",
+      "price": "Rs.700",
+      "ratings": "3.7",
+      "category": "shoes"
+    },
+    {
+      "name": "mens casual-combo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKbO8yweGGmjwuDxc-q_bE40c6A54JZDhrNdoy-sKzol1Pys6-jN48cYhEP7hOalC4dA&usqp=CAU",
+      "price": "Rs.900",
+      "ratings": "4.2",
+      "category": "shoes"
+    },
+    {
+      "name": "mens casual-blue",
+      "image": "https://images.unsplash.com/photo-1560072810-1cffb09faf0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMHNob2VzfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "price": "Rs.900",
+      "ratings": "4.8",
+      "category": "shoes"
+    },
+    {
+      "name": "mens-formal-brown",
+      "image": "https://tiimg.tistatic.com/fp/1/007/684/elegant-look-slip-resistance-office-wear-close-up-leather-mens-formal-shoes-350-w300.jpg",
+      "price": "Rs.900",
+      "ratings": "4.9",
+      "category": "shoes"
+    },
+    {
+      "name": "mens-formal-brown-2",
+      "image": "https://static.toiimg.com/thumb/msid-84372545,width-1200,height-900,resizemode-4/.jpg",
+      "price": "Rs.900",
+      "ratings": "4.9",
+      "category": "shoes"
+    },
+    {
+      "name": "mens-casual-brown-2",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2020/11/BK/YF/UH/9339838/mens-casual-brown-ankle-leather-boot-500x500.jpg",
+      "price": "Rs.900",
+      "ratings": "4.9",
+      "category": "shoes"
+    },
+    {
+      "name": "mens-formal-brown-3",
+      "image": "https://c.ndtvimg.com/2019-11/fkuq87ng_formal-shoes_625x300_25_November_19.jpg",
+      "price": "Rs.900",
+      "ratings": "4.9",
+      "category": "shoes"
+    },
+    {
+      "name": "Dell laptop",
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "price": "Rs.60,000",
+      "ratings": "4.9",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "lenovo laptop",
+      "image": "https://t4.ftcdn.net/jpg/03/38/71/07/360_F_338710749_pybwz4wCKyDK3mwV7wnDh8ZeKwOGXnKD.jpg",
+      "price": "Rs.70,000",
+      "ratings": "4.6",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "apple laptop",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2QLvvenW0OztWStcjmTejA1kA-DjIVpRO_YxRIywBaIoajV9aZoJEPg6pY1WPDBK75ak&usqp=CAU",
+      "price": "Rs.2,00,000",
+      "ratings": "4.9",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "asus laptop",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mini-laptops-1647980699.jpg",
+      "price": "Rs.55,000",
+      "ratings": "4.4",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "hp laptop",
+      "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-697563,resizemode-1,msid-93723115/top-trending-products/electronics/laptops/best-hp-laptops-in-india.jpg",
+      "price": "Rs.48,000",
+      "ratings": "4.3",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "gaming laptop",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnQYvhC2AeXTptjTDVHyUyN7sDD-APNu0FA&usqp=CAU",
+      "price": "Rs.1,20,000",
+      "ratings": "4.9",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "hp laptop",
+      "image": "https://media.istockphoto.com/id/96823983/photo/laptop-besides-a-window.jpg?b=1&s=612x612&w=0&k=20&c=q6MON4aFKt6zhGKxRoOWoqt4CIfvUvSZ2DKAVNRrW_A=",
+      "price": "Rs.30,000",
+      "ratings": "4.2",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "intel laptop",
+      "image": "https://images.indianexpress.com/2021/05/Razer-FB.jpg",
+      "price": "Rs.60,000",
+      "ratings": "4.5",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "amd laptops",
+      "image": "https://s.yimg.com/uu/api/res/1.2/IZmwdyWGvg0Nh2rfw9wSbA--~B/aD0xMjAwO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-07/4a425a40-fd56-11ec-beee-be16b8848f18.cf.jpg",
+      "price": "Rs.90,000",
+      "ratings": "4.9",
+      "category": "laptop"
+    }
+    ,
+    {
+      "name": "avita pura",
+      "image": "https://expertreviews.b-cdn.net/sites/expertreviews/files/2020/08/avita_pura_14_review.jpg",
+      "price": "Rs.35,000",
+      "ratings": "4.5",
+      "category": "laptop"
+    }
+  ]
+}
+  
