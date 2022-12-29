@@ -18,7 +18,8 @@
     justify-content: space-around;
 }
 .media{
-   width: 45%;
+   width: 40%;
+   margin-bottom: 50px;
 }
  .imagedata{
     width: 100%;
@@ -30,6 +31,7 @@
 /* background-color: #fff;
 padding: 20px;
 border-radius: 10px; */
+height: 150px;
 }
 .detailsindata{
     display: flex;

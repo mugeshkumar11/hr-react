@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import "./data.css";
 import StarBorderIcon from '@mui/icons-material/StarBorder';
-
+import Home from "./Home"
 const Data = () => {
   const [user, setUser] = useState([]);
 
@@ -22,6 +22,7 @@ const Data = () => {
 
   return (
     <div>
+      <Home/>
       <section className="content">
         <section className="container">
           <div className="flex">
