@@ -38,7 +38,7 @@ const Data = () => {
                     <h5>{item.ratings}/<span><StarBorderIcon/></span></h5>
                   </div>
                   <div className="addbtn">
-                    <Button variant="contained">ADD +</Button>
+                    <Button variant="contained">ADD TO CART</Button>
                   </div>
                 </div>
               </div>

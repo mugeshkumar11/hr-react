@@ -7,9 +7,9 @@ import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import "./home.css";
-import { FormControl,InputLabel,Select,MenuItem } from "@mui/material";
 import { useState } from "react";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 
 function SearchAppBar(){
   const Search = styled("div")(({ theme }) => ({
@@ -53,13 +53,6 @@ function SearchAppBar(){
       },
     },
   }));
-    const [choose, setchoose] = useState("");
-
-    const handleChange = (eve) =>{
-      setchoose(eve.target.value);
-      }
-
-
   return (
     <section className="header">
       <section className="container">
@@ -72,22 +65,8 @@ function SearchAppBar(){
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
               >
-                E-cart web
+               Shopping Cart
               </Typography>
-              <FormControl sx={{ width:"20% ",color:"white"}}>
-                <InputLabel id="demo-simple-select-label"  sx={{color:"white"}}>product</InputLabel>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  value={choose}
-                  label="product-name"
-                  onChange={handleChange}
-                >
-                  <MenuItem value={10}>phone</MenuItem>
-                  <MenuItem value={20}>laptop</MenuItem>
-                  <MenuItem value={30}>shoe</MenuItem>
-                </Select>
-              </FormControl>
               <Search>
                 <SearchIconWrapper>
                   <SearchIcon />

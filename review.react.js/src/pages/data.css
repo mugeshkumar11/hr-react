@@ -31,11 +31,11 @@
 /* background-color: #fff;
 padding: 20px;
 border-radius: 10px; */
-height: 150px;
+height: 120px;
 }
 .detailsindata{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
      background-color:#00BFFF;
     padding: 20px;
     border-radius: 10px;
