@@ -4,9 +4,12 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import "./data.css";
 import StarBorderIcon from '@mui/icons-material/StarBorder';
-import Home from "./Home"
+import Home from "./Home";
+import { useDispatch } from "react-redux";
+import { addtocart } from "./redux/cartslice";
 const Data = () => {
   const [user, setUser] = useState([]);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     fetchto();
@@ -19,6 +22,11 @@ const Data = () => {
   };
 
   console.log(user);
+
+  const handleaddtocart = () => {
+     dispatch(addtocart())
+
+  }
 
   return (
     <div>
@@ -38,8 +46,8 @@ const Data = () => {
                     <h5>{item.ratings}/<span><StarBorderIcon/></span></h5>
                   </div>
                   <div className="addbtn">
-                    <Button variant="contained">ADD TO CART</Button>
-                  </div>
+                    <Button variant="contained" onClick={() => handleaddtocart (item)} >ADD TO CART</Button>
+                  </div> 
                 </div>
               </div>
             ))}
