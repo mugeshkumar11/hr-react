@@ -1,45 +1,22 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { Button } from "@mui/material";
-import axios from "axios";
-import "./data.css";
-import StarBorderIcon from '@mui/icons-material/StarBorder';
-import Home from "./Home";
+import "./delivery.css";
 import { useDispatch, useSelector } from "react-redux";
-import { addtocart } from "./redux/cartslice";
-const Data = () => {
-  const [user, setUser] = useState([]);
+import Home from "./Home";
+import { Button } from "@mui/material";
+import StarBorderIcon from '@mui/icons-material/StarBorder';
 
-  //
+const Delivery = () => {
   const dispatch = useDispatch();
+  const state = useSelector((data) => data).cart;
 
-  // dispatch(addtocart([...state.cartitem]))
-  // console.log(state);
-
-  useEffect(() => {
-    fetchto();
-  }, []);
-  const fetchto = async () => {
-    await axios
-      .get("http://localhost:5000/data")
-      .then((json) => setUser(json.data));
-    console.log(user);
-  };
-
-  console.log(user);
-
-  const handleaddtocart = (product) => {
-     dispatch(addtocart(product))
-
-  }
-
+  console.log(state, "state");
   return (
     <div>
-      <Home/>
+      <Home />
       <section className="content">
         <section className="container">
           <div className="flex">
-            {user?.map((product) => (
+            {state.cartitem.map((product) => (
               <div className="media">
                 <div className="imagedata">
                   <img src={product.image}></img>
@@ -50,8 +27,10 @@ const Data = () => {
                     <h4>{product.price}</h4>
                     <h5>{product.ratings}/<span><StarBorderIcon/></span></h5>
                     <div className="addbtn">
-                    <Button variant="contained" onClick={() => handleaddtocart (product)} >ADD TO CART</Button>
-                    </div> 
+                    <Button variant="contained" color="error">
+                      Delete
+                    </Button>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -63,4 +42,4 @@ const Data = () => {
   );
 };
 
-export default Data;
+export default Delivery;

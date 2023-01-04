@@ -9,7 +9,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import "./home.css";
 import { useState } from "react";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-
+import { Link } from "react-router-dom";
 
 function SearchAppBar(){
   const Search = styled("div")(({ theme }) => ({
@@ -65,7 +65,7 @@ function SearchAppBar(){
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
               >
-               Shopping Cart
+               <Link to="/Data" className="homecom">Home page</Link>
               </Typography>
               <Search>
                 <SearchIconWrapper>
@@ -77,7 +77,7 @@ function SearchAppBar(){
                 />
               </Search>
               <div className="shopingico" >
-               <h4 style={{fontsize:"100px"}}><ShoppingCartIcon/></h4> 
+               <h4 style={{fontsize:"100px"}}><Link to="/Delivery"><ShoppingCartIcon className="delico"/></Link></h4> 
               </div>
             </Toolbar>
           </AppBar>

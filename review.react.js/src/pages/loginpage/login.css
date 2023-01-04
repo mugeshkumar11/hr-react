@@ -31,8 +31,6 @@ body {
 .container{
     max-width:100% ;
     margin: auto;
-    padding-left:15px ;
-    padding-right: 15px;
 }
 .loginflex{
     background-color: #fff;
@@ -78,15 +76,15 @@ body {
     font-size: 16px;
     color: red;
     padding-top: 15px;
+    text-align: center;
 }
 @media (min-width:768px){
-.loginflex{
-    margin-left: 25%;
-}
-
 }
 @media(min-width:1024px){
-    .loginflex{
+    /* .loginflex{
         margin-left: 32%;
+    } */
+    .input {
+        width: 100%;
     }
 }

@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { Action } from '@remix-run/router';
 
 const initialState = {
     cartitem:[],
@@ -11,8 +10,17 @@ const cartslice = createSlice({
     name:"cart",
     initialState,
     reducers:{
-        addtocart(state, Action){
-            state.cartitem.push(Action.payload)
+        addtocart(state, action){
+              
+           const itemindex = state.cartitem.findIndex(item =>item.id===action.payload.id)
+            
+           if(itemindex >= 0){
+            state.cartitem[itemindex].cartquantity+=1
+           }else{
+            const tempproduct = {...action.payload,cartquantity:1}
+            state.cartitem.push(tempproduct)
+           }
+           
         }
     }
 

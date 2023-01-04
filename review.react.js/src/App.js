@@ -1,9 +1,11 @@
 import React from "react";
 import Data from "./pages/Data";
 import Login from "./pages/loginpage/Login";
+import Delivery from "./pages/Delivery";
 import{ store } from "./pages/redux/store";
 import {Provider} from "react-redux";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Login />}></Route>
             <Route path="Data" element={<Data />}></Route>
+            <Route path="Delivery" element={<Delivery/>}></Route>
             <Route path="*" element={<Navigate to={"/"} />}></Route>
           </Routes>
         </BrowserRouter>
